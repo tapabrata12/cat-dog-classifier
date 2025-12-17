@@ -49,7 +49,7 @@ py -3.11 -m venv .venv
 ```
 Install Dependencies: Use the provided requirements.txt to install the exact versions used in development. Note: We include the index URL to ensure the CUDA-enabled version of PyTorch is installed.
 ```bash
-pip install -r requirements.txt --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+pip install -r requirements.txt
 ```
 ## 🚀 How to Run
 
