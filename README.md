@@ -36,8 +36,7 @@ cat_dog_project/
 │   ├── model.py        # CNN Architecture
 │   └── train.py        # Training Loop
 ├── .gitignore          # Files to exclude from Git
-├── README.md           # Project documentation
-└── requirements.txt    # List of dependencies
+└── README.md           # Project documentation
 ```
 ## ⚙️ Installation
 Clone the repository (or download the files).
@@ -47,9 +46,12 @@ Create a Virtual Environment:
 py -3.11 -m venv .venv
 .venv\Scripts\activate
 ```
-Install Dependencies: Use the provided requirements.txt to install the exact versions used in development. Note: We include the index URL to ensure the CUDA-enabled version of PyTorch is installed.
+Install Dependencies: Use the provided commands to install the exact versions used in development. Note: We include the index URL to ensure the CUDA-enabled version of PyTorch is installed.
 ```bash
-pip install -r requirements.txt
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+```bash
+pip install streamlit
 ```
 ## 🚀 How to Run
 
